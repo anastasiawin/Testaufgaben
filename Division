@@ -1,0 +1,18 @@
+package Tasks;
+
+public class Division {
+	double dividend;
+	
+	public static double divresult (double dividend) {
+		return dividend / 3;
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println(divresult(9.0));
+		System.out.println(divresult(7.1));
+		System.out.println(divresult(19.04));
+		System.out.println(divresult(-4072.0));
+	}
+
+}
